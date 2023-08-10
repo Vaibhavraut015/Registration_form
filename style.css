@@ -1,0 +1,72 @@
+Body>table {
+    Width: 100%;
+    background-color: rgb(193, 241, 253);
+}
+
+Table {
+    Border-collapse: collapse;
+}
+
+Table.list {
+    Width: 100%;
+}
+
+Td,
+th {
+    Border: 1px solid #130606;
+    Text-align: left;
+    Padding: 8px;
+}
+
+Tr:nth-child(even),
+table.list thead>tr {
+    Background-color: #f77575;
+}
+
+Input[type=text],
+input[type=number] {
+    Width: 100%;
+    Padding: 12px 20px;
+    Margin: 8px 0;
+    Display: inline-block;
+    Border: 1px solid #f5eb5c;
+    Border-radius: 4px;
+    Box-sizing: border-box;
+}
+
+.dob {
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+Input[type=submit] {
+    Width: 30%;
+    Background-color: #f4a3f4;
+    Color: #000;
+    Padding: 14px 20px;
+    Margin: 8px 0;
+    Border: none;
+    Border-radius: 4px;
+    Cursor: pointer;
+}
+
+Form div.form-action-buttons {
+    Text-align: right;
+}
+
+A {
+    Cursor: pointer;
+    Text-decoration: underline;
+    Color: #0000ee;
+    Margin-right: 4px;
+}
+
+Label.validation-error {
+    Color: red;
+    Margin-left: 5px;
+}
+
+.hide {
+    Display: none;
+}
